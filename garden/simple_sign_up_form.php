@@ -6,8 +6,8 @@ $date_of_birth = $_POST['date_of_birth'];
 $gender_type = $_POST['gender_type'];
 $department = $_POST['department'];
 $password = $_POST['password'];
-echo Thank you for submitting your form.  <br/>;
-echo You logged in as "$_username $_secondname" <br/>;
+
+echo 'You logged in as'. $_username $_secondname '<br/>' ;
 echo we can reach you through your email "$_email"<br/>;
 echo Remember to celebrate you Birthday "$_Date_of_Birth";
 	if (){age 25, age++  2000<age<1990 
