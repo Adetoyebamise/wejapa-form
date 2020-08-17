@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang ="en">
+	
+ <html>
+	<title></title>
+	
+	<style type ="text/css">
+		head {
+			text-decoration: darkblue;
+			font-family: sans-serif ;
+			}
+		p {text-align: center;
+		}
+		background-color{
+			color: gray;}
+		input {
+			font-size: 120%;
+			color : #5a5854;
+			background-color :#f2f2f2;
+			border: 1px solid #bdbdbd;
+			border-radius: 5px;
+			
+			background-repeat :no-repeat;
+			background-position :8px 9px;
+			display: ButtonShadow;
+			margin-bottom: 10px;}
+		input.text:focus {
+			background-color: #ffffff;
+			border: 1px solid #efefef;
+		}
+		body {
+			color: maroon;
+		}
+		input#submit {
+			color : #444444;
+			text-shadow : 0px 1px 1px #ffffff;
+			border-bottom : 2px solid #b2b2b2;
+			background-color : #b9e4e3;
+			background : -wekit-gradient(linear, left top, left bottom, from(#beeae9), to(#a8cfce));
+			background : -moz-linear-gradient(top, #beeae9, #a8cfce);
+			background : -o-linear-gradient (top, #beeae9,#a8cfce);
+			background : -ms-linear-gradient(top, #beeae9, #a8cfce);
+			text-align : left;
+			
+		}
+		input#submit:hover {
+			color: #333333;
+			border: 1px solid #a4a4a4;
+			border-top: 2px solid #b2b2b2;
+			background-color : #a0bdc4;
+			background : -wekit-gradient(linear, left top, left bottom, from(#a8cfce), to(#beeae9));
+			background : -moz-linear-gradient(top, #a8cfce, #beeae9);
+			background : -o-linear-gradient (top, #a8cfce,#beeae9);
+			background : -ms-linear-gradient(top, #a8cfce, #beeae9);
+			text-align : leftwards;
+		}
+		fieldset {
+			width : 500px;
+			border: 1px solid #dcdcdc;
+			
+		}
+		legend {
+			background-color: #efefef;
+			border: 1px solid #dcdcdc;
+			border-radius: 6px;
+			padding : 2px 4px;
+			text-align : center-right;
+			text-transform : uppercase;
+			font-family : san-serif;
+		}
+	</style>
+
+  <body>
+   <h1></h1>
+   
+   <fieldset>
+    <legend><p> <strong>My Simple Sign up Form</strong> </p></legend>
+	 <formaction = "post" action = "process.php">
+	 
+	 <div id="frame">
+	 <label><strong>Firstname :</strong> <br/>
+	 <input type ="text" name ="Firstname" /> <br/></label></div>
+	 <div><label><strong>Secondname :</strong> <br/>
+	 <input type ="text" name ="secondname" /> <br/></label></div>
+	 <div><label><strong>Email :</strong> <br/>
+	 <input type ="text" name ="Email" /> <br/></label></div>
+	 <div><label><strong>Date of Birth :</strong><br/>
+	 <input type ="date" name ="date" /> <br/></label></div>
+	 <div><label><strong>Favorite Color :</strong><br/>
+	 <input type ="color" name ="color" /> <br/></label></div>
+	 <div><label><strong>Gender Type :</strong><br/>
+	 <input type ="checkbox" name="gender_type" value="Female" checked="checked"/>Female 
+	 <input type="checkbox" name="gender_type" value="Male" />Male<br/></label></div>
+	 <div><label><strong>Department :</strong><br/>
+	 <select name="department" size="" maxlength=""> 	 <option name ="IT" value ="IT">IT</option>
+															 <option name = "HR" value ="HR">HR</option>
+															 <option name ="stuff" value ="Stuff">stuff</option>
+								  </select><br/></label></div>
+	<div><label><strong>Passsword :</strong> <br/></div>
+	<div><input type ="password" name ="password" /> <br/></label></div>
+	<div><input type = "submit" value = "submit" ></div>
+	 </form></justify>
+	 </fieldset>
+	 
+	
+	 
+  </body>
+ </html>
